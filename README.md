@@ -17,6 +17,11 @@ HOW TO INSTALL AND RUN
 
 So no guarantees and only tested on Windows and within Intellij;
 
+These are the three repos you need;
+* https://github.com/mydogspies/react_vs_houdini_backend
+* https://github.com/mydogspies/react_vs_houdini_frontend
+* https://github.com/mydogspies/react_vs_houdin_projectfiles
+
 * Clone all *three* REACT vs HOUDINI repos to somewhere on your disc.
 * **In the Flask BACKEND**; change the paths in the config.py to match with wherever you saved the project files to and your Houdini install dir (path://to/Houdini 18.5.xxx/)
 * **In the Flask BACKEND**; Set the Python interpreter within your Intellij project settings to Hython - which you find in path/to/Houdini 18.5.xxx/bin/hython.exe. It will NOT work!
@@ -37,8 +42,3 @@ This solution has one big caveat! It only works if the Hrpyc server is already r
 FINAL DISCLAIMER
 
 This project is just a simple proof of concept I wrote in one evening and not meant to be production code. There are for sure much better ways to establish a React to Houdini pipeline and I would love to hear from anyone about your solution. Just drop a message in the issues in any of the three repos. 
-
-
-
-
-
