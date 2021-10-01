@@ -11,7 +11,7 @@ The goal is to try out one of many ways to use a web front end to directly manip
 Here are some thoughts regarding the frontend part;
 * React is backend agnostic so it does not matter what we use for backend. Establish API and bang it will work! No specific magic on this end.
 * Flask is the content server and also starts the frontend. It may be odd but  the call to the front end is http://localhost:5000 even though React is running on port 3000 in the background. There is no specific design reason for this. Was just the way I set it from start to get up and running as fast as I could.
-* All tested within Intellij so no guarantees it works in any other environment!
+* All tested within Intellij on Windows 10 Pro so no guarantees it works in any other environment!
 
 HOW TO INSTALL AND RUN
 
