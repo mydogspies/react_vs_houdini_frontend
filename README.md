@@ -28,6 +28,12 @@ SPECIFICALLY for INTELLIJ on WINDOWS
 * Start the Flask server by running the app.py from within Intellij with the **Run** (shift + F10 on win) command. Note that doing a "flask run" starts Flask with the wrong python interpreter, at least on my dev machine and by using the Intellij run command you force Flask with whatever interpreter you chose as part of your project settings.
 * Open the React frontend using http://localhost:5000
 
+HOW IT WORKS IN PRACTICE
+
+The React frontend simply sends API calls and is completely unaware of the backend. The Flask backend deals with the API endpoints and then uses Hrpyc to directly send and receive commands from Houdini. Hrpyc is pretty much a wrapper for the Hou module, the Houdini API.
+
+This solution has one big caveat! It only works if the Hrpyc server is already running and that can only be started from WITHIN Houdini. In the scripts sub-folder of the projects files is a super short script that does just that on starting up Houdini - starts the server. That is why I added a button to open Houdini on the front end - to make sure Houdini is configured for the communication with the outer world.
+
 
 
 
