@@ -34,6 +34,8 @@ The React frontend simply sends API calls and is completely unaware of the backe
 
 This solution has one big caveat! It only works if the Hrpyc server is already running and that can only be started from WITHIN Houdini. In the scripts sub-folder of the projects files is a super short script that does just that on starting up Houdini - starts the server. That is why I added a button to open Houdini on the front end - to make sure Houdini is configured for the communication with the outer world.
 
+FINAL DISCLAIMER
+
 This project is just a simple proof of concept I wrote in one evening and not meant to be production code. There are for sure much better ways to establish a React to Houdini pipeline and I would love to hear from anyone about your solution. Just drop a message in the issues in any of the three repos. 
 
 
