@@ -1,4 +1,4 @@
-# REACT vs HOUDINI
+# REACT vs HOUDINI [frontend]
 
 ### A tiny case study of one way to use React as the web front to manipulate parameters in Houdini.
 
